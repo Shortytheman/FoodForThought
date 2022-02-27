@@ -45,6 +45,7 @@ p {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-top: 100px;
 
     background-image: url('https://thumbs.dreamstime.com/b/food-donation-beige-background-table-horizontal-banner-copy-space-flat-lay-covid-outbreak-self-isolation-delivery-181985541.jpg');
     background-repeat: no-repeat;
@@ -104,8 +105,10 @@ p {
     height: 750px;
     border-bottom: 2px solid black;
 }
-
-
+.navbar {
+    background-color: rgb(253,254,214);
+    position: fixed;
+}
 
 /* INDEX SLUT */
 
