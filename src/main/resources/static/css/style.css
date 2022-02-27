@@ -9,8 +9,8 @@ p {
 }
 .nav-link-signup {
     display: flex;
-    flex-direction: row-reverse;
-    align-items: start;
+    flex-direction: column;
+    align-content: flex-end;
 }
 
 /* GENEREL SLUT */
