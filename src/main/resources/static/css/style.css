@@ -1,24 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 /* GENEREL START */
+
+html {
+    height: 100%
+}
+footer {
+    background-color: #6D6B6A;
+    padding-top: 35px;
+}
+.footer-phrase {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
 
 h1 {
     font-size: 100px;
-    color: blue;
+    color: black;
 }
+
 p {
-    color: yellow;
+    color: black;
 }
+
 .nav-link-signup {
     display: flex;
     flex-direction: column;
     align-content: flex-end;
 }
 
-.logo-image{
+.logo-image {
     width: 190px;
     height: 75px;
     overflow: hidden;
     margin-top: -6px;
 }
 
-/* GENEREL SLOTH */
+/* GENEREL START */
 
+/* INDEX START */
+
+.slogan-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-image: url('https://thumbs.dreamstime.com/b/food-donation-beige-background-table-horizontal-banner-copy-space-flat-lay-covid-outbreak-self-isolation-delivery-181985541.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 750px;
+    border-bottom: 2px solid black
+}
+
+.slogan {
+    margin-top: 25px;
+    font-family: Pacifico;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background-image: url('https://cdn.pixabay.com/photo/2020/02/25/11/40/copenhagen-4878671_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 750px;
+    border-bottom: 2px solid black;
+}
+.index-box {
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    background: white;
+    opacity: 0.7;
+}
+
+.statistic-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-image: url('https://image.shutterstock.com/image-illustration/green-grass-footprints-3d-illustration-600w-1449580460.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 750px;
+    border-bottom: 2px solid black;
+}
+.statistic {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+}
+.shelter {
+    display: flex;
+
+
+    background-image: url('https://image.shutterstock.com/image-photo/donate-food-hungry-people-concept-600w-1206249046.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 750px;
+    border-bottom: 2px solid black;
+}
+
+
+
+/* INDEX SLUT */
+
+/* ABOUTUS START */
+
+/* ABOUTUS SLUT */
+
+/* BENEFICIALS START */
+
+/* BENEFICIALS SLUT */
+
+/* SIGNUP START */
+
+/* SIGNUP SLUT */

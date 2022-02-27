@@ -17,4 +17,8 @@ public class Controller {
     public String beneficials() {
         return "beneficials";
     }
+    @GetMapping("/signup")
+    public String signup() {
+        return "signup";
+    }
 }
