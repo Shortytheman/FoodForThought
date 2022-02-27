@@ -2,21 +2,19 @@ package com.example.foodforthought.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 
+@org.springframework.stereotype.Controller
 public class Controller {
 
     @GetMapping("/")
     public String index() {
-        return "Index";
+        return "index";
     }
-    @GetMapping("/Aboutus")
-    public String AboutUs() {
-        return "AboutUs";
+    @GetMapping("/aboutus")
+    public String aboutus() {
+        return "aboutUs";
     }
-    @GetMapping("/Beneficials")
-    public String Beneficials() {
-        return "Beneficials";
+    @GetMapping("/beneficials")
+    public String beneficials() {
+        return "beneficials";
     }
-
-
-
 }
