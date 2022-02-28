@@ -47,15 +47,17 @@ p {
     flex-direction: column;
     padding-top: 150px;
 
-    background-image: url('https://www.consilium.europa.eu/media/46927/infocus-food-waste.jpg');
+    /* ---Billeder skal være 1980x1080---  */
+    background-image: url('https://stringfixer.com/files/126371014.jpg');
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     margin: auto;
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 50%;
+    min-height: 50%;
+    border-bottom: 2px solid black;
 }
 
 .slogan {
