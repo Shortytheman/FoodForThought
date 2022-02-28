@@ -6,11 +6,16 @@ html {
     height: 100%
 }
 footer {
-    background-color: #6D6B6A;
+    background-color: rgb(253,254,214);
     padding-top: 35px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    clear: both;
+    margin-top: auto;
 }
 .footer-phrase {
-    color: white;
     display: flex;
     justify-content: center;
 }
@@ -22,12 +27,6 @@ h1 {
 
 p {
     color: black;
-}
-
-.nav-link-signup {
-    display: flex;
-    flex-direction: column;
-    align-content: flex-end;
 }
 
 .logo-image {
@@ -46,18 +45,20 @@ p {
     align-items: center;
     flex-direction: column;
     padding-top: 150px;
-
     /* ---Billeder skal være 1980x1080---  */
-    background-image: url('https://stringfixer.com/files/126371014.jpg');
+}
+
+.image-background-fill {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     margin: auto;
-    min-width: 50%;
-    min-height: 50%;
+    width: 100%;
+    height: auto;
     border-bottom: 2px solid black;
+    z-index: -1;
 }
 
 .slogan {
@@ -65,17 +66,6 @@ p {
     font-family: Pacifico;
 }
 
-.info-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-    background-image: url('https://cdn.pixabay.com/photo/2020/02/25/11/40/copenhagen-4878671_1280.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 750px;
-    border-bottom: 2px solid black;
-}
 .index-box {
     border: 1px solid black;
     height: 400px;
@@ -84,32 +74,10 @@ p {
     opacity: 0.7;
 }
 
-.statistic-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-
-    background-image: url('https://image.shutterstock.com/image-illustration/green-grass-footprints-3d-illustration-600w-1449580460.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 750px;
-    border-bottom: 2px solid black;
-}
 .statistic {
     height: 300px;
     width: 300px;
     border: 2px solid black;
-}
-.shelter {
-    display: flex;
-
-
-    background-image: url('https://image.shutterstock.com/image-photo/donate-food-hungry-people-concept-600w-1206249046.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 750px;
-    border-bottom: 2px solid black;
 }
 .navbar {
     background-color: rgb(253,254,214);
