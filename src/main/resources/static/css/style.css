@@ -32,8 +32,8 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 600px;
-    margin-right: 10px;
+    margin-left: 35%;
+    margin-right: 2%;
 }
 
 h1 {
