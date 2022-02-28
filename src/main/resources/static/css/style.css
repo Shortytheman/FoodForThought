@@ -47,11 +47,15 @@ p {
     flex-direction: column;
     padding-top: 150px;
 
-    background-image: url('https://thumbs.dreamstime.com/b/food-donation-beige-background-table-horizontal-banner-copy-space-flat-lay-covid-outbreak-self-isolation-delivery-181985541.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 750px;
-    border-bottom: 2px solid black
+    background-image: url('https://www.consilium.europa.eu/media/46927/infocus-food-waste.jpg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .slogan {
