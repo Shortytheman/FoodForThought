@@ -99,6 +99,10 @@ p {
     background-color: rgb(253,254,214);
     position: fixed;
 }
+.instaLinkPosition {
+    display: flex;
+    justify-content: right;
+}
 
 /* INDEX SLUT */
 
