@@ -1,12 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 /* GENEREL START */
 
 html {
     height: 100%
 }
-footer {
-    background-color: rgb(253,254,214);
+
+.instagramimg {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 30px;
+    height: 30px;
+    margin-right: 0;
+    background-position: 0 0;
+}
+
+.footer-phrase {
+    background-color: rgb(253, 254, 214);
     padding-top: 35px;
     position: absolute;
     bottom: 0;
@@ -14,8 +25,6 @@ footer {
     height: 60px;
     clear: both;
     margin-top: auto;
-}
-.footer-phrase {
     display: flex;
     justify-content: center;
 }
@@ -23,6 +32,11 @@ footer {
 h1 {
     font-size: 100px;
     color: black;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 75px;
 }
 
 p {
@@ -79,8 +93,9 @@ p {
     width: 300px;
     border: 2px solid black;
 }
+
 .navbar {
-    background-color: rgb(253,254,214);
+    background-color: rgb(253, 254, 214);
     position: fixed;
 }
 
@@ -96,4 +111,26 @@ p {
 
 /* SIGNUP START */
 
+.signup-background {
+    background-color: rgb(253, 254, 214);
+}
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+}
+.input {
+    margin-right: 1300px;
+}
+.signupbutton{
+
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin-right: 1300px;
+    border: none;
+    cursor: pointer;
+}
+
 /* SIGNUP SLUT */
+
