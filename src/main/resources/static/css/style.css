@@ -50,10 +50,12 @@ h3 {
 
 p {
     color: black;
+}
 .link-image {
     height: 35px;
     width: 35px;
 }
+
 
 .logo-image {
     width: 190px;
@@ -121,6 +123,7 @@ p {
 .navbar {
     background-color: rgb(253, 254, 214);
     position: fixed;
+}
 .statistic-image {
     width: 500px;
     height: 400px;
