@@ -137,7 +137,24 @@ p {
 
 /* BENEFICIALS START */
 .beneficials-container {
-    background-color: rgb(253,254,214);
+    background-color: rgb(255,174,201);
+    padding: 100px 0px 100px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 10px solid rgb(253, 254, 214);
+}
+.beneficials-info1 p{
+    float: left;
+
+}
+.beneficials-info2 p {
+    float: right;
+}
+.beneficial-image {
+    width: 400px;
+    height: 250px;
 }
 
 /* BENEFICIALS SLUT */
@@ -156,7 +173,6 @@ p {
     margin-right: 1300px;
 }
 .signupbutton{
-
     background-color: black;
     color: white;
     padding: 14px 20px;
@@ -164,5 +180,4 @@ p {
     border: none;
     cursor: pointer;
 }
-
 /* SIGNUP SLUT */
