@@ -147,7 +147,6 @@ footer {
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -174,16 +173,22 @@ footer {
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     border: 10px solid rgb(253,254,214);
 }
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
 .input-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 .signupbutton{
     background-color: black;
@@ -191,5 +196,11 @@ footer {
     padding: 14px 20px;
     border: none;
     cursor: pointer;
+}
+.input {
+    margin-right: 10px;
+}
+#input-box {
+    margin-bottom: 20px;
 }
 /* SIGNUP SLUT */

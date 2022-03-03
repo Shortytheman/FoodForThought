@@ -38,11 +38,24 @@
 <div class="signup-container">
     <h3>Sign Up here</h3>
     <div class="input-container">
-        <label><b>Username</b></label>
-        <input class="input" type="text" placeholder="Enter Username" name="uname" required><br>
-        <label><b>Password</b></label>
-        <input class="input" type="password" placeholder="Enter Password" name="psw" required><br>
-        <button class="signupbutton" type="submit">Login</button>
+        <label><b>Company</b></label>
+        <input placeholder="Enter company name"><br>
+        <label><b>E-mail</b></label>
+        <input placeholder="Enter e-mail address"><br>
+        <div class="checkbox">
+            <input class="input" type="checkbox">
+            <label> Sign up company </label>
+        </div>
+        <div class="checkbox" id="input-box">
+            <input class="input" type="checkbox">
+            <labe> Sign up for newsletter </labe>
+        </div>
+        <button onclick="myFunction()" class="signupbutton" type="submit">Sign-up</button>
+        <script>
+            function myFunction(){
+                alert("You have signed up. Thank you for your support");
+            }
+        </script>
     </div>
 </div>
 </body>
