@@ -133,14 +133,14 @@ footer {
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    border: 10px solid rgb(255, 255, 255);
+    /*border: 10px solid rgb(255, 255, 255);*/
     padding-top: 3%;
 }
 .aboutus-info-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-}
+}       
 .aboutus-info {
     display: flex;
     flex-direction: column;
