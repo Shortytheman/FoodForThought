@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
-/* GENEREL START */
-* {
-    padding: 0 0 0 0;
-    margin: 0 0 0 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,300;0,600;1,800&family=Pacifico&display=swap');
 
 body, html {
     height: 100%
@@ -16,16 +11,19 @@ body, html {
 h1 {
     font-size: 100px;
     color: black;
+    font-family: "Noto Serif Display 800 italic";
 }
 h2 {
     font-size: 100px;
+    font-family: 'Noto Serif Display 600';
 }
 h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Serif Display 400';
     font-size: 75px;
 }
 p {
     color: black;
+    font-family: 'Noto Serif Display 300';
 }
 .logo-image {
     width: 190px;
@@ -136,8 +134,30 @@ footer {
     justify-content: space-evenly;
     flex-direction: column;
     border: 10px solid rgb(255, 255, 255);
-    padding-top: 2%;
+    padding-top: 3%;
 }
+.aboutus-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.aboutus-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1% 2% 1% 2%;
+}
+#about-info-id {
+    display: flex;
+    margin-right: 20%;
+}
+.aboutus-image1 {
+    height: 400px;
+    width: 600px;
+    border: 1px solid black;
+}
+
 
 /* ABOUTUS SLUT */
 
@@ -164,6 +184,7 @@ footer {
 .beneficial-image {
     width: 400px;
     height: 250px;
+    margin: 0 20px 0 20px;
 }
 
 /* BENEFICIALS SLUT */
