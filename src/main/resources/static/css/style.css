@@ -11,7 +11,7 @@ body, html {
 }
 .navbar {
     background-color: rgb(253,254,214);
-    position: fixed;
+        position: relative;
 }
 h1 {
     font-size: 100px;
@@ -132,8 +132,8 @@ footer {
     width: 100%;
 
     display: flex;
-    align-items: start;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
     flex-direction: column;
     border: 10px solid rgb(253, 254, 214);
     padding-top: 2%;
