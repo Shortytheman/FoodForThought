@@ -1,31 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
-/* GENEREL START */
-* {
-    padding: 0 0 0 0;
-    margin: 0 0 0 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,300;0,600;1,800&family=Pacifico&display=swap');
 
 body, html {
     height: 100%
 }
 .navbar {
-    background-color: rgb(253,254,214);
+    background-color: rgb(255,255,255);
         position: relative;
 }
 h1 {
     font-size: 100px;
     color: black;
+    font-family: "Noto Serif Display 800 italic";
 }
 h2 {
     font-size: 100px;
+    font-family: 'Noto Serif Display 600';
 }
 h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Serif Display 400';
     font-size: 75px;
 }
 p {
     color: black;
+    font-family: 'Noto Serif Display 300';
 }
 .logo-image {
     width: 190px;
@@ -37,7 +35,7 @@ p {
 
 /* FOOTER START */
 footer {
-    background-color: rgb(253,254,214);
+    background-color: rgb(255,255,255);
     width: 100%;
     height: 60px;
     clear: both;
@@ -73,11 +71,11 @@ footer {
     align-items: center;
     flex-direction: column;
     padding-top: 5%;
-    background-image: url('https://images.unsplash.com/photo-1454944338482-a69bb95894af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1746&q=80');
+    background-image: url('https://i.imgur.com/q72pk2i.jpg');
     background-repeat: no-repeat;
     width: 100%;
     height: 1080px;
-    border: 10px solid rgb(253,254,214);
+    /*border: 10px solid rgb(255,255,255);*/
     /* ---Billeder skal være 1980x1080---  */
 }
 .slogan {
@@ -93,7 +91,7 @@ footer {
     background-repeat: no-repeat;
     width: 100%;
     height: 900px;
-    border: 10px solid rgb(253,254,214);
+    /*border: 10px solid rgb(253,254,214);*/
     /* ---Billeder skal være 1980x1080---  */
 }
 .info-box {
@@ -101,15 +99,15 @@ footer {
     height: 300px;
     width: 400px;
     margin-bottom: 50px;
-    background: rgb(253,254,214);
+    background: rgb(255,255,255);
     opacity: 0.7;
 }
 .statistic-container {
-    background-image: url('https://i.imgur.com/MmiYEgE.png');
+    background-image: url('https://i.imgur.com/gW0xrRJ.jpg');
     background-repeat: no-repeat;
     width: 100%;
     height: 1080px;
-    border: 10px solid rgb(253,254,214);
+    /*border: 10px solid rgb(253,254,214);*/
 
     display: flex;
     flex-direction: column;
@@ -119,8 +117,8 @@ footer {
 }
 .statistic-image {
     width: 500px;
-    height: 400px;
-    border: 1px solid black;
+    height: 250px;
+    /*border: 1px solid black;*/
 }
 /* INDEX SLUT */
 
@@ -135,9 +133,31 @@ footer {
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    border: 10px solid rgb(253, 254, 214);
-    padding-top: 2%;
+    border: 10px solid rgb(255, 255, 255);
+    padding-top: 3%;
 }
+.aboutus-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.aboutus-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1% 2% 1% 2%;
+}
+#about-info-id {
+    display: flex;
+    margin-right: 20%;
+}
+.aboutus-image1 {
+    height: 400px;
+    width: 600px;
+    border: 1px solid black;
+}
+
 
 /* ABOUTUS SLUT */
 
@@ -151,7 +171,7 @@ footer {
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    border: 10px solid rgb(253,254,214);
+    /*border: 10px solid rgb(253,254,214);*/
     padding-top: 2%;
 }
 .beneficials-info1 p{
@@ -163,6 +183,8 @@ footer {
 .beneficial-image {
     width: 400px;
     height: 250px;
+    margin: 0 20px 0 20px;
+    border: 1px solid black;
 }
 
 /* BENEFICIALS SLUT */
@@ -177,7 +199,7 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 10px solid rgb(253,254,214);
+    /*border: 10px solid rgb(253,254,214);*/
 }
 .checkbox{
     display: flex;
