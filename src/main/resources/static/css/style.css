@@ -235,7 +235,7 @@ footer {
 
 /* SIGNUP START */
 .signup-container {
-    background-image: url('https://i.imgur.com/K79ND5t.jpeg');
+    background-image: url('https://i.imgur.com/bctKAgc.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -245,6 +245,8 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+
 }
 .checkbox{
     display: flex;
