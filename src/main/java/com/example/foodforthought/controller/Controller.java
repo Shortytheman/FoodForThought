@@ -24,4 +24,8 @@ public class Controller {
     public String signup() {
         return "signup";
     }
+    @GetMapping("/signup/terms")
+    public String terms() {
+        return "terms";
+    }
 }

@@ -11,7 +11,8 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-light">
     <a class="navbar-brand" href="/">
         <div class="logo-image">
-            <img src="https://scontent-cph2-1.xx.fbcdn.net/v/t1.15752-9/274856923_971514660419128_6462612760143838118_n.png?_nc_cat=105&ccb=1-5&_nc_sid=ae9488&_nc_ohc=ZUWRSiheoREAX-xTa56&_nc_ht=scontent-cph2-1.xx&oh=03_AVKMSmyE4eLoL8LhNgrw6akKvYrLlqoLis8z8Flbaw4O-g&oe=6245E9B7" class="img-fluid">
+            <img src="https://scontent-cph2-1.xx.fbcdn.net/v/t1.15752-9/274856923_971514660419128_6462612760143838118_n.png?_nc_cat=105&ccb=1-5&_nc_sid=ae9488&_nc_ohc=ZUWRSiheoREAX-xTa56&_nc_ht=scontent-cph2-1.xx&oh=03_AVKMSmyE4eLoL8LhNgrw6akKvYrLlqoLis8z8Flbaw4O-g&oe=6245E9B7"
+                 class="img-fluid">
         </div>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -24,14 +25,14 @@
 
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item">
-                <a class="nav-link" href="aboutus">About Us <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="../aboutus">About Us <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="beneficials">Beneficials</a>
+                <a class="nav-link" href="../beneficials">Beneficials</a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-            <a class="nav-link" href="signup">
+            <a class="nav-link" href="../signup">
                 <button type="button" class="btn btn-dark btn-sm">Sign Up</button>
             </a>
         </form>
@@ -48,13 +49,17 @@
             <input class="input" type="checkbox">
             <label> Sign up company </label>
         </div>
+        <div class="checkbox">
+            <input class="input" type="checkbox">
+            <label> Sign up for newsletter</label>
+        </div>
         <div class="checkbox" id="input-box">
             <input class="input" type="checkbox">
-            <labe> Sign up for newsletter </labe>
+            <a href="/signup/terms">Agree to our terms and conditions</a>
         </div>
         <button onclick="myFunction()" class="signupbutton" type="submit">Sign-up</button>
         <script>
-            function myFunction(){
+            function myFunction() {
                 alert("You have signed up. Thank you for your support");
             }
         </script>

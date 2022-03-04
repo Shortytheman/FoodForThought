@@ -169,7 +169,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-}       
+}
 .aboutus-info {
     display: flex;
     flex-direction: column;
@@ -224,6 +224,7 @@ footer {
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -254,3 +255,19 @@ footer {
     margin-bottom: 20px;
 }
 /* SIGNUP SLUT */
+
+/* TERMS AND CONDITIONS START */
+.terms-container {
+    background-image: url('https://scontent-cph2-1.xx.fbcdn.net/v/t1.15752-9/274213876_1245673155918649_2220102242020532911_n.png?_nc_cat=109&ccb=1-5&_nc_sid=ae9488&_nc_ohc=FXAQvfIKiAcAX-GRbv4&_nc_oc=AQk11eRXuvr_WOXYvyfr2Sjaz2oD_wgWxyEu62vhv-tEo7bwMdmQGby51AlUc3ftBYU&_nc_ht=scontent-cph2-1.xx&oh=03_AVL4snABO9w6_fULLWgYnnxNCLD8Wn7y7xF5MYWnE7MiLg&oe=6247C2E3');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* TERMS AND CONDITIONS SLUT */
