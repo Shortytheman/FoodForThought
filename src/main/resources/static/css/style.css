@@ -6,7 +6,7 @@ body, html {
 }
 .navbar {
     background-color: rgb(255,255,255);
-        position: relative;
+    position: relative;
 }
 h1 {
     font-size: 100px;
@@ -155,12 +155,11 @@ footer {
 /* ABOUTUS START */
 .aboutus-container {
     display: flex;
-    align-items: center;
     flex-direction: column;
     padding-top: 3%;
 }
 .our-vision-container {
-    background-image: url('https://images.unsplash.com/photo-1459257831348-f0cdd359235f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');
+    background-image: url('https://i.imgur.com/i8dMwj5.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -168,24 +167,22 @@ footer {
     width: 100%;
 
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: left;
-}
-.our-vision-container h2 {
-    display: flex;
     flex-direction: column;
-    margin: 0 0 150px 50px;
+    align-items: end;
+    justify-content: center;
 }
+
 .our-vision-container p3 {
     display: flex;
     flex-direction: row;
-    margin: 0 0 100px 20px;
-    padding: 0 50% 0 5%;
-
+    width: 500px;
+    margin: 0 15% 2% 0;
+}
+.our-vision-container h2 {
+    margin-right: 50%;
 }
 .who-are-we-container {
-    background-image: url('https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80');
+    background-image: url('https://i.imgur.com/rzmWeG7.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -193,19 +190,17 @@ footer {
     width: 100%;
 
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
 }
-.aboutus-image1 {
-    height: 400px;
-    width: 600px;
-    border: 1px solid black;
-}
-    /*#about-info-id {
-        display: flex;
-        margin-right: 20%;
-    }*/
 
+.who-are-we-container p3 {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    margin: 0 0 0 15%;
+}
 
 /* ABOUTUS SLUT */
 
