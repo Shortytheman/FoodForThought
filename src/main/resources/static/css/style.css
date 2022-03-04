@@ -93,6 +93,7 @@ footer {
 .slogan-container {
     background-image: url('https://scontent-cph2-1.xx.fbcdn.net/v/t1.15752-9/274213876_1245673155918649_2220102242020532911_n.png?_nc_cat=109&ccb=1-5&_nc_sid=ae9488&_nc_ohc=FXAQvfIKiAcAX-GRbv4&_nc_oc=AQk11eRXuvr_WOXYvyfr2Sjaz2oD_wgWxyEu62vhv-tEo7bwMdmQGby51AlUc3ftBYU&_nc_ht=scontent-cph2-1.xx&oh=03_AVL4snABO9w6_fULLWgYnnxNCLD8Wn7y7xF5MYWnE7MiLg&oe=6247C2E3');
     background-repeat: no-repeat;
+    background-size: cover;
     height: 1080px;
     width: 100%;
 
@@ -115,6 +116,7 @@ footer {
 .info-container {
     background-image: url('https://scontent-cph2-1.xx.fbcdn.net/v/t1.15752-9/274648813_677858210304322_5965814831507789523_n.png?_nc_cat=106&ccb=1-5&_nc_sid=ae9488&_nc_ohc=tDdrPdJWS7cAX_mwUfw&_nc_oc=AQnFCHRxPqAuAMzBqEUS-gsLIkYq5ePQBIDmT397kkWinzn0AeXX7YCgNlXhFJBnYvY&_nc_ht=scontent-cph2-1.xx&oh=03_AVIzUuwPDJuqQ3h3wJ0AyKEC47PQAlPs7gxZ-n3gRy-I6Q&oe=624527BA');
     background-repeat: no-repeat;
+    background-size: cover;
     height: 900px;
     width: 100%;
 
@@ -137,6 +139,7 @@ footer {
 .statistic-container {
     background-image: url('https://scontent-cph2-1.xx.fbcdn.net/v/t1.15752-9/274265456_1575816952797630_1956474884761217610_n.png?_nc_cat=108&ccb=1-5&_nc_sid=ae9488&_nc_ohc=OTLU_PB8FPsAX-q4bUq&_nc_ht=scontent-cph2-1.xx&oh=03_AVKGGSpI9enL4FGjY7wGTtpcd93tvZYnGZjAUrZD6x-ILw&oe=62469F91');
     background-repeat: no-repeat;
+    background-size: cover;
     height: 1080px;
     width: 100%;
 
@@ -156,12 +159,13 @@ footer {
 .aboutus-container {
     background-image: url('https://i.imgur.com/UaeA8HT.jpeg');
     background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    max-width: 100%;
 
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
     flex-direction: column;
     padding-top: 3%;
 }
@@ -174,8 +178,9 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 1% 2% 1% 2%;
+    margin: 10px 10px 10px 10px;
 }
 #about-info-id {
     display: flex;
@@ -194,6 +199,7 @@ footer {
 .beneficials-container {
     background-image: url('https://i.imgur.com/UaeA8HT.jpeg');
     background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
     width: 100%;
 
@@ -222,6 +228,7 @@ footer {
 .signup-container {
     background-image: url('https://i.imgur.com/K79ND5t.jpeg');
     background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
     width: 100%;
     display: flex;
